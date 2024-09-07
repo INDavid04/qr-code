@@ -1,0 +1,74 @@
+:root {
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./Outfit/Outfit-VariableFont_wght.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--slate-300);
+  color: var(--slate-900);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border-radius: 24px;
+  padding: 1rem 1rem 40px;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+article img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+article h1 {
+  margin: 24px 0;
+  max-width: 250px;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+article p {
+  margin: 0 auto;
+  max-width: 250px;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+footer {
+  margin-top: -5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer a:focus, footer a:hover {
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
